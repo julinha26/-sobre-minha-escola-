@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fascinate+Inline&display=swap');
+:root{
+    --bg-color:#295F98;
+    --prymary-color:#CDC2A5;
+    --secondary-color:#D2E0FB;
+    --font:"Fascinate Inline", serif;;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--prymary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin:0;
+}
+
+header{
+    background-color: var(--prymary-color);
+    text-align: center;
+    padding: 1px;
+}
+
+
+h1{
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 900;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--bg-color);
+    margin: 0  2rem  1rem 0;
+    font-size: 1.2rem;
+}
+
+nav a {
+    text-decoration:underline ;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+
+.graficos-container{
+    margin: 5rem;
+
+}
+
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secondary-color) solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color: var(--bg-color);
+}
+
+
+
+
+footer{
+    display: flex ;
+    align-items:  center;
+    justify-content: center;
+    background-color: var(--prymary-color);
+    color: var(--bg-color);
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.imagem__alunos{
+    align-items: center;
+    padding: 30rem;
+    width: 200;
+    height: 20;
+}
